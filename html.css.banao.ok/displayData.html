@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display Data</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h2>Enter details of Students :- </h2>
+        <div class="inputBox">
+            <div class="data">Name : <input id="name" type="text"></div>
+            <div class="data">Rollno : <input id="rollno" type="number"></div>
+            <div class="data">Course : <input id="course" type="text"></div>
+            <h3>Enter marks in following subjects (out of 50) : - </h3>
+            <div class="data">C++ : <input id="marks1" type="number"></div>
+            <div class="data">Java : <input id="marks2" type="number"></div>
+            <div class="data">Python : <input id="marks3" type="number"></div>
+            <div class="data">Maths : <input id="marks4" type="number"></div>
+            <div class="data">English : <input id="marks5" type="number"></div>
+            
+            <button id = "insert">Input Data</button>
+        </div>
+        <h2>Student Details</h2>
+        <table id="showdata">
+            <tr>
+                <th>Name</th>
+                <th>Rollno</th>
+                <th>Course</th>
+                <th colspan="5">Marks</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>C++</td>
+                <td>Java</td>
+                <td>Python</td>
+                <td>Maths</td>
+                <td>English</td>
+                <td></td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
